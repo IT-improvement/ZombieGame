@@ -12,4 +12,7 @@ public class Game {
 		return instance;
 	}
 	
+	public void run() {
+		
+	}
 }
