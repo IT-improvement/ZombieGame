@@ -1,7 +1,15 @@
 package game;
 
 public class Game {
-	public static void main(String[] args) {
-		
+
+	private Game() {
+
 	}
+
+	private static Game instance = new Game();
+
+	public Game getInstance() {
+		return instance;
+	}
+	
 }
