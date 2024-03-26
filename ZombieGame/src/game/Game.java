@@ -8,7 +8,7 @@ public class Game {
 
 	private static Game instance = new Game();
 
-	public Game getInstance() {
+	public static Game getInstance() {
 		return instance;
 	}
 	
